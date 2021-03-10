@@ -4,8 +4,16 @@
   "description": "Nah",
   "main": "index.ts",
   "scripts": {
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.33",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "ts-node": "^9.1.1"
+  }
 }
